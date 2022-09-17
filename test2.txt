@@ -1,2 +1,2 @@
 So we are at our test2 file in the learngit repository.
-now we are making changes here thatb will be applied locally as well.
+now we are making changes here that will be applied locally as well.
