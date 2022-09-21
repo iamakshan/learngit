@@ -1,5 +1,4 @@
 <?php
-
 include "config.php";
 if (isset($_POST['submit']))
 {
@@ -61,11 +60,10 @@ if (isset($_POST['submit']))
 			<li class="nav-item">
 			  <a class="nav-link text-white fs-5" href="adminproperty.php">View Property</a>
 			</li>			
-      <li class="nav-item">
+     			 <li class="nav-item">
 			  <a class="nav-link text-white fs-5" href="adminproduct.php">Product Sale</a>
-			</li>	
-     
-      <a href="adminlogout.php"><button type="button" class="btn btn-outline-warning fw-semibold">Logout</button></a>
+			</li>     
+      			<a href="adminlogout.php"><button type="button" class="btn btn-outline-warning fw-semibold">Logout</button></a>
 		  </ul>		  
 		</div>
 	  </div>
@@ -92,7 +90,7 @@ if (isset($_POST['submit']))
             <label for="exampleInputEmail1" class="form-label fs-5">Name</label>
             <input type="text" class="form-control" name="name" aria-describedby="emailHelp">
             
-        </div>
+      </div>
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label fs-5">Product</label>
             <select class="form-select bg-light" aria-label="Default select example" name="product">
@@ -209,18 +207,9 @@ $result = $link->query($sql)
                        }
                    }
                ?>
-               
-
        </tbody>
-   </table>
-   
+   </table>   
    </div>
-
-
-
-
-
-
 
     <div class="container my-5">
     <footer class="footer-59391 shadow-sm" data-aos="fade-up">
@@ -254,7 +243,6 @@ $result = $link->query($sql)
             </div>
           </div>
         </div>
-
         <div>
           <div class="row align-items-center">
             <div class="col-lg-4 text-lg-center site-logo order-1 order-lg-2 mb-3 mb-lg-0">
@@ -264,24 +252,16 @@ $result = $link->query($sql)
               <ul class="list-unstyled nav-links m-0 nav-left">
                 <li><a href="#">Terms</a></li>
                 <li><a href="#">Cookies</a></li>
-                <li><a href="#">Privacy</a></li> 
-              
+                <li><a href="#">Privacy</a></li>              
               </ul>
-            </div>
-            
+            </div>            
             <div class="col-lg-4 text-lg-right order-3 order-lg-3">
               <p class="m-0 text-muted"><small>&copy; 2022. Brick Lane All Rights Reserved.</small></p>
             </div>
           </div>
         </div>
-
     </footer>
 </div>
-
-
-
-
-
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
@@ -302,7 +282,6 @@ $result = $link->query($sql)
                 nav.classList.remove('active_nav');
             }
         })
-    </script>
- 
+    </script> 
 </body>
 </html>
